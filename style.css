@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    font-size: 62.5%;
+    --color-base: 194;
+    --bg-page: hsl(var(--color-base), 55%, 7%);
+    --cb-button: hsla(var(--color-base), 100%, 63%, 1);
+    --fc-page: hsla(var(--color-base), 100%, 95%, 1);
+    --bg-controls: hsla(194, 100%, 63%, 0.13)
+    
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--bg-page);
+    color: var(--fc-page);
+    display: grid;
+    height: 100vh;
+}
+main{
+    justify-self: center;
+    align-self: end;
+}
+#timer{
+    font-size:clamp(6.5rem, 6.5rem + 2vw, 8.8rem);;
+    font-weight: 700;
+    line-height: 10.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+button svg {
+    width: clamp(3.2rem, 2rem + 12vw 6.4rem);
+}
+button svg path{
+    fill: var(--cb-button)
+}
+.hide{
+    display: none;
+}
+#controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3.2rem;
+    width: clamp(10rem, 10rem + 30vw, 22.8rem);
+    background-color: var(--bg-controls);
+    border-radius: 9999px;
+    padding: 1rem 3.2rem;
+}
+footer{
+    justify-self: end;
+    align-self: end;
+    margin: 4rem 3.2rem;
+}
