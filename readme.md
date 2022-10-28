@@ -1,6 +1,6 @@
 # Exercício 03 do nível 05 - Temporizador Pomodoro
 
-![preview](.github/preview.png)
+![preview](./.github/preview.png)
 
 > <b>Trilha Explorer </b>
 
