@@ -32,7 +32,7 @@
 
 ## :dart:  Desafio
 
-- [ ]  Criar um temporizador pomodoro
+:heavy_check_mark:  Criar um temporizador pomodoro
 
 ### Pomodoro 
 
